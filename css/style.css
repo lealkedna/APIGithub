@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #0d1117;
+    color: #FFF;
+}
+.init{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+.form{
+    margin: 20px auto;
+}
+
+form input{
+   padding: 10px;
+   border-radius: 8%;
+   border: 2px solid orange;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    border: orange solid  3px;
+}
+img{
+    border: 2px solid  white;
+    border-radius: 100%;
+}
